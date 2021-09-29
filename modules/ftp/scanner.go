@@ -292,3 +292,7 @@ func GetPopulatedConnection(conn net.Conn, flags *Flags, scanResults ScanResults
 		results: scanResults,
 	}
 }
+
+func (ftp *Connection) GetResults() ScanResults {
+	return ftp.results
+}
