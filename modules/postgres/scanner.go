@@ -17,8 +17,8 @@ import (
 
 	"encoding/json"
 
+	"github.com/effluxio/zgrab2"
 	log "github.com/sirupsen/logrus"
-	"github.com/zmap/zgrab2"
 )
 
 const (

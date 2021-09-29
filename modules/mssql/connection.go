@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/effluxio/zgrab2"
 	"github.com/sirupsen/logrus"
-	"github.com/zmap/zgrab2"
 )
 
 var (

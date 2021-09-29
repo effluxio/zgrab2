@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zmap/zgrab2"
+	"github.com/effluxio/zgrab2"
 )
 
 var (

@@ -5,8 +5,8 @@
 package bacnet
 
 import (
+	"github.com/effluxio/zgrab2"
 	log "github.com/sirupsen/logrus"
-	"github.com/zmap/zgrab2"
 )
 
 // Scan results are in log.go

@@ -17,9 +17,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/effluxio/zgrab2"
+	"github.com/effluxio/zgrab2/lib/http"
 	log "github.com/sirupsen/logrus"
-	"github.com/zmap/zgrab2"
-	"github.com/zmap/zgrab2/lib/http"
 )
 
 const (

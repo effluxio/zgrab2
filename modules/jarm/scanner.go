@@ -4,13 +4,14 @@ package jarm
 
 import (
 	_ "fmt"
-	jarm "github.com/RumbleDiscovery/jarm-go"
-	"github.com/zmap/zgrab2"
 	"io"
 	"log"
 	"net"
 	"strings"
 	"time"
+
+	jarm "github.com/RumbleDiscovery/jarm-go"
+	"github.com/effluxio/zgrab2"
 )
 
 // Flags give the command-line flags for the banner module.
