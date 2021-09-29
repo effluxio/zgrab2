@@ -284,3 +284,11 @@ func (s *Scanner) Scan(t zgrab2.ScanTarget) (status zgrab2.ScanStatus, result in
 	}
 	return zgrab2.SCAN_SUCCESS, &ftp.results, nil
 }
+
+func GetPopulatedConnection(conn net.Conn, flags *Flags, scanResults ScanResults) Connection {
+	return Connection{
+		conn:    conn,
+		config:  flags,
+		results: scanResults,
+	}
+}
